@@ -313,3 +313,14 @@ h1 {
     height: 25vh;
   }
 }
+
+//leisure
+.ShellTabsAccessories {
+  display: flex !important;
+  flex-direction: column-reverse;
+
+  & .ShellAccessories.Vertical,
+  & .ShellItemTabs {
+    width: 100% !important;
+  }
+}
