@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon" />
     <title>Plants Duuuh</title>
   </head>
   <body>
     <section class="section">
       <div class="container">
-        <h1>Вазони</h1>
+        <h1>Вазони in da house</h1>
         <div id="app">
           <div class="blocks">
             <div v-for="(plant,idx) in plants" :key="plant.id" class="block">
@@ -160,7 +161,14 @@
                 name: "Сансиверія",
                 description: "Полив: 1 раз на 2-3 тижні (100мл)",
                 date: "",
-                images: ["IMG_1033.JPG"],
+                images: ["IMG_1033.JPG", "sans.jpg"],
+              },
+              {
+                id: "p-16",
+                name: "Сингоніум",
+                description: "Полив: 1 раз на тиждень (60мл). Коли буде сухіший то 2 рази",
+                date: "",
+                images: ["syng.jpg"],
               },
             ],
           }
